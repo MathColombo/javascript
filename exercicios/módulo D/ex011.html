@@ -16,8 +16,9 @@
         function verificaçao() {
             var national = document.querySelector('input#national')
             var resp = document.querySelector('div#resp')
+            var br = 'Brasil'
             //resp.innerHTML = `Nacionalidade: ${national}`
-            if(national != 'Brasil' ) {
+            if(national !== br) {
                 resp.innerHTML = 'Você não é um(a) cidadã(o) brasileiro(a), seu passaporte foi aprovado. Seja bem vindo'
             } else {
                 resp.innerHTML = 'Você é um(a) cidadã(o) brasileiro(a), seu passaporte foi aprovado. Seja bem vindo'
