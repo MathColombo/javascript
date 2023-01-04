@@ -1,12 +1,7 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
 body {
-    background-color: rgb(124, 155, 240);
+    background-image: linear-gradient(rgb(105, 105, 252), rgb(248, 93, 248));
     color: white;
-    font: normal 10pt Arial;
+    font: normal 13pt Arial;
 }
 
 header {
