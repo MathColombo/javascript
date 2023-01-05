@@ -21,6 +21,17 @@ div {
     padding: 10px;
 }
 
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
 footer {
     text-align: center;
 }
