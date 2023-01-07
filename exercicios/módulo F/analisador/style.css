@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(185, 240, 198, 0.911);
+    font: normal 13pt Arial;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+section {
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+}
+
+div {
+    padding: 10px;
+}
+
+#selres {
+    width: 150px;
+}
+
+#fin {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+}
